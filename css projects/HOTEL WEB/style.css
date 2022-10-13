@@ -1,0 +1,243 @@
+/* reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* main style */
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7 rem;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2,h2{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0px;
+}
+/* utility classes */
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    padding:0px 20px;
+}
+.text-primary{
+    color: #f7c08a;
+}
+.btn{
+    display: inline-block;
+    padding:15px 20px;
+    background-color:#333 ;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: #444;
+}
+.box-dr{
+    background-color: #333;
+    color: #f4f4f4;
+}
+.box-lt{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.box-primary{
+    background-color: #f7c08a;
+    color: #333;
+}
+.clr {
+    clear: both;
+  }
+/* navbar */
+#navbar{
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+    width: 100%;
+}
+#navbar a{
+    color: #fff;
+}
+#navbar h1{
+    float: left;
+    padding-top:20px;
+}
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+#navbar ul li{
+    float: left;
+}
+#navbar ul li a{
+    text-align: center;
+    display: block;
+    padding:25px 25px;
+}
+#navbar ul li a:hover,
+#navbar ul li a.current
+{
+    background-color: #444;
+    color:#f7c08a
+}
+
+/* showcase */
+#showcase{
+    background: url(./img/showcase.jpg) no-repeat center center/cover;
+    height: 600px;
+}
+#showcase-content{
+    padding-top: 160px;
+    color: #fff;
+    text-align: center;
+}
+#showcase-content h1{
+    font-size: 60px;
+}
+
+/* info-section */
+#info-section{
+    height: 400px;
+    overflow:hidden;
+}
+#info-section .info-img{
+    float: left;
+    
+    width: 50%;
+    height:100%;
+    background: url(./img/photo-1.jpg) no-repeat center center/cover ;
+}
+#info-section .info-content{
+    float: right;
+    width: 50%;
+    background-color:#333 ;
+    min-height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    color: #fff;
+    margin:auto;
+}
+#info-section .info-content .btn{
+    background-color: #444;
+}
+#info-section .info-content .btn:hover{
+    background-color: #f7c08a;
+    color: #444;
+}
+/* features */
+#features{
+    min-height: 200px;
+}
+.box{
+    float: left;
+    text-align: center;
+    width: 33.3%;
+    padding: 30px;
+}
+/* footer */
+#copyright{
+    padding:10px;
+    text-align: center;
+    background: #444;
+    color: #f4f4f4;
+}
+
+/* //// ABOUT PAGE //// */
+
+/* About */
+#about{
+    min-height: 300px;
+    padding-top: 10px;
+}
+#about-content{
+    text-align: left;
+    width: 50%;
+    float: left;
+}
+#about-content h1{
+    font-size: 40px;
+    padding-top: 10px;
+}
+#about-img img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 20%;
+}
+#about-img{
+    min-height: 100%;
+    float: right;
+    width: 50%;
+}
+
+/* testimonials */
+#testimonials{
+    height: 600px;
+    background: url(./img/test-bg.jpg) no-repeat center center/cover;
+}
+#testimonials h2{
+    color: #fff;
+    padding-top: 100px ;
+    font-size: 40px;
+    text-align: center;
+}
+#testimonials .testimonial{
+    min-height: 150px;
+    padding: 20px ;
+    opacity: 0.9;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+#testimonials .testimonial img{
+    width: 110px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+/* /// Contact //// */
+#form-content{
+    max-width: 1050px;
+    margin: auto;
+    padding: 20px;
+}
+
+#content h1{
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+#content p{
+    padding-top: 0px;
+}
+
+
+#form label{
+    display: block;
+    padding: 10px 0px;
+}
+#form input, #form textarea{
+    width:100% ;
+    padding:10px;
+    border: 1px #ddd solid;
+}
+#form textarea{
+    height: 200px;
+}
+#form input:focus, #form textarea:focus{
+    outline: none;
+    border-color: #f7c08a;
+}
+

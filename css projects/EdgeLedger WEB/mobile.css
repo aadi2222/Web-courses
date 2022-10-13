@@ -1,0 +1,51 @@
+
+/*   Align icon to left  */
+#what .items{
+  display: block;
+  padding: 1rem;
+}
+#what .items .item{
+  display: flex;
+  text-align: left;
+} 
+/* position icon */
+#what .items .item i{
+  margin-right: 1.3rem;
+  align-self: center;
+  margin-bottom: 0;
+}
+/* smartphones */
+@media(max-width:500px){
+   /* navbar */
+   #navbar{
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+   }
+   #navbar ul {
+     padding-top: 1.5rem ;
+   }
+   #navbar ul li a {
+    padding: 0.75rem;
+   }
+
+   /* WHO */
+   #who{
+     display: flex;
+     flex-direction: column;
+     height: 100vh;
+   }
+   /* Clients */
+   #clients .items img{
+     width: 80%;
+   }
+   #clients .items div:last-child{
+     display:none;
+   }
+   /* Contact */
+   #contact{
+     flex-direction: column;
+     height: 100vh;
+   }
+   
+}
